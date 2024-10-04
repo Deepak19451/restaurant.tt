@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    /* border: border-box; */
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    /* background-image: url("restarent/jagan.jpg");
+    background-size: cover; */
+    background-color:rgb(248, 232, 217) ;
+
+}
+.head{
+    height: 50px;
+    background-color:rgb(248, 232, 217) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid rgb(230, 177, 126);
+   
+}
+h1{
+    color: black;
+}
+
+.center a{
+    padding-right: 28px;
+    color: black;
+    font-weight: 700;
+}
+.center a:hover{
+    border: 2px solid white;
+}
+.home{
+    position: absolute;
+    left: 1300px;
+    transition:all 1s ease-in ;
+}
+.home i{
+    padding-right: 12px;
+}
+.home i:hover{
+    transform: scale(1.25);
+}
+.hero{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.about{
+    height: 500px;
+    width: 600px;
+    color: white;
+    /* background-color: black; */
+}
+.cheef{
+    height: 600px;
+    width: 800px;
+    background-image: url("restarent/cheef1.webp");
+    background-size: cover;
+    background-color: aqua;
+}
+.herodown{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cheef_img{
+    height: 350px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.box{
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-size: cover;
+    transition: all ease-in;
+}
+.box:hover{
+    opacity: 1.5;
+    transform: scale(1.1);
+}
+h3{
+    position: relative;
+    top: 310px;
+    text-align: center;
+    color:black;
+}
+.class{
+    height: 400px;
+}

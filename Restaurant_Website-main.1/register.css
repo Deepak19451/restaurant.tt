@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "poppins" ,sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("restarent/bg-of-sign-up.jpeg.crdownload");
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+.main{
+
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(10px);
+}
+.input input{
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    font-size: 16px;
+    color: #fff;
+
+}
+input::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+.input {
+    padding-top: 10px;
+}
+.but{
+    padding-top: 10px;
+    background-color: transparent;
+
+}
+.but button{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    transition: all ease-in;
+
+}
+.content{
+    display: flex;
+    margin-top: 20px;
+}
+.content p{
+    padding-left: 80px;
+    color: #fff;
+}
+.content a{
+    
+    color: rgb(52, 99, 227);
+}
+.but button p:hover{
+    transform: scale(1.25);
+}
+
+.content a:hover{
+    text-decoration: underline;
+
+}
